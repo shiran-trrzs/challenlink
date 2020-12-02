@@ -12,7 +12,7 @@ all of the characters in K is `"aabd"` which is located at the beginning of the 
 Both parameters will be strings ranging in length from 1 to 50 characters and all of K's characters will 
 exist somewhere in the string N. Both strings will only contains lowercase alphabetic characters.
 
-##Examples
+## Examples
 
 ```bash
 Input: array("ahffaksfajeeubsne", "jefaa")
