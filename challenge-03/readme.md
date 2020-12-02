@@ -34,7 +34,7 @@ We have recently signed a supplier of conjured items. This requires an update to
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" 
 is a legendary item and as such its Quality is 80 and it never alters.
 
-##Challenge
+## Challenge
 
 1. Refactor the monstrous code in the `GildedRose.php` class.
 2. Add a new item type, "Conjured". The specs for this item are commented out in the `GildedRoseSpec.php` file.
