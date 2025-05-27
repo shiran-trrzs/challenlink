@@ -15,9 +15,8 @@ function noIterate($strArr) {
     for ($end = 0; $end < strlen($string_base); $end++) {
         $character = $string_base[$end];
         if (isset($counted_characters[$character])) {
-            # echo $character . '<br />';
+
             $character_counter[$character] = ($character_counter[$character] ?? 0) + 1;
-            # echo $character_counter[$character] . '<br />';
 
             if ($character_counter[$character] === $counted_characters[$character]) $achieved_characters++;
         }
@@ -29,10 +28,9 @@ function noIterate($strArr) {
             }
 
             $left_character = $string_base[$start++];
-            # echo $left_character . '<br />';
             if (isset($counted_characters[$left_character])) {
                 if ($character_counter[$left_character] === $counted_characters[$left_character]) $achieved_characters--;
-                # echo $achieved_characters . '<br />';
+                
                 $character_counter[$left_character]--;
             }
         }
